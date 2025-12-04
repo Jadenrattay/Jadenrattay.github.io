@@ -116,16 +116,19 @@ color: #31f9fc;
 h2 {
 padding: 20px 0px;
 color: red;
-font-weight: 650;
+font-size: 24;
+font-weight: bold;
 }
 h3 {
 padding: 20px 0px;
 color: blue;
-font-weight: 650;
+font-size: 24;
+font-weight: bold;
 }
 h4{
 color: #31f9fc;
-font-weight: 800;
+font-size: 30;
+font-weight: bold;
 }
 p {
 color: #8A2BE2;
