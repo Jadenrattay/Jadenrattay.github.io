@@ -26,7 +26,7 @@ box-sizing: border-box;
 }
 body {
 font-family: 'Arial', sans-serif;
-background-color: #CF3919;
+background-color: #EB4B2A;
 display: flex;
 justify-content: flex-start;
 align-items: center;
@@ -116,14 +116,16 @@ color: #31f9fc;
 h2 {
 padding: 20px 0px;
 color: red;
+font-weight: 650;
 }
 h3 {
 padding: 20px 0px;
 color: blue;
+font-weight: 650;
 }
 h4{
-color: #8A2BE2;
-font-weight: bold;
+color: #31f9fc;
+font-weight: 800;
 }
 p {
 color: #8A2BE2;
