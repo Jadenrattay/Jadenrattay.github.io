@@ -28,8 +28,8 @@ body {
 font-family: 'Arial', sans-serif;
 background-color: #CF3919;
 display: flex;
-justify-content: center;
-align-items: flex-start;
+justify-content: flex-start;
+align-items: center;
 flex-direction: column;
 min-height: 100vh;
 padding: 40px 20px;
@@ -39,7 +39,7 @@ perspective: 1000px; /* For a subtle 3D effect on hover */
 }
 .card1 {
 width: 350px;
-height: 550px;
+height: 600px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 background-color: #ffd966;
 overflow: hidden;
@@ -66,7 +66,7 @@ perspective: 1000px; /* For a subtle 3D effect on hover */
 }
 .card2 {
 width: 350px;
-height: 550px;
+height: 600px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 background-color: #ffd966;
 overflow: hidden;
@@ -111,15 +111,21 @@ border: 5px cocoa brown; /* Creates a nice border effect */
 h1 {
 text-align: center;
 margin-bottom: 20px;
-color: teal;
+color: #31f9fc;
 }
 h2 {
+padding: 20px 0px;
 color: red;
 }
 h3 {
+padding: 20px 0px;
 color: blue;
 }
+h4{
+color: #8A2BE2;
+font-weight: bold;
+}
 p {
-color: #666;
+color: #8A2BE2;
 font-size: 0.9em;
 }
