@@ -16,7 +16,10 @@ box-sizing: border-box;
   flex-direction: row;
   gap: 40px;                /* Space between card1 and card2 */
 }
-
+.middle-row {
+  display: flex;
+  justify-content: center;  /* Center card3 */
+}
 .bottom-row {
   display: flex;
   justify-content: center;  /* Center card3 */
@@ -26,8 +29,9 @@ font-family: 'Arial', sans-serif;
 background-color: #CF3919;
 display: flex;
 justify-content: center;
-align-items: center;
-height: 100vh;
+padding: 40px 0;
+min-height: 100vh;
+flex-direction: column;
 }
 .Anakin {
 perspective: 1000px; /* For a subtle 3D effect on hover */
@@ -83,7 +87,7 @@ text-align: center;
 padding: 20px;
 }
 .card3 {
-width: 500px;
+width: 600px;
 height: 350px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 background-color: #ffd966;
@@ -98,7 +102,7 @@ transform: scale(1.2);
 }
 
 .Battlepic {
-width: 500px;
+width: 600px;
 height: 350px;
 border: 5px cocoa brown; /* Creates a nice border effect */
 }
@@ -107,6 +111,13 @@ h1 {
 margin: 10px 0;
 display: flex;
 flex-direction: row;
+color: teal;
+}
+h2 {
+color: red;
+}
+h3 {
+color: blue;
 }
 p {
 color: #666;
