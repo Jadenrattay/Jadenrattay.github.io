@@ -4,6 +4,22 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+.container {
+  display: flex;
+  flex-direction: column;   /* Stack h1, top-row, bottom-row */
+  align-items: center;      /* Center everything horizontally */
+  gap: 20px;                /* Space between sections */
+}
+
+.top-row {
+  display: flex;
+  gap: 40px;                /* Space between card1 and card2 */
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: center;  /* Center card3 */
+}
 body {
 font-family: 'Arial', sans-serif;
 background-color: #CF3919;
@@ -16,21 +32,21 @@ height: 100vh;
 perspective: 1000px; /* For a subtle 3D effect on hover */
 }
 .card1 {
-width: 300px;
-height: 700px;
+width: 350px;
+height: 550px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 background-color: #ffd966;
 overflow: hidden;
 display: flex;
 flex-direction: column;
-align-items: left;
+align-items: center;
 transition: transform 0.3s;
 }
 .card1:hover {
 transform: rotateY(10deg);
 }
 .Apic {
-width: 250px;
+width: 300px;
 height: 400px; 
 border: 5px red; /* Creates a nice border effect */
 }
@@ -43,21 +59,21 @@ padding: 20px;
 perspective: 1000px; /* For a subtle 3D effect on hover */
 }
 .card2 {
-width: 300px;
-height: 700px;
+width: 350px;
+height: 550px;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 background-color: #ffd966;
 overflow: hidden;
 display: flex;
 flex-direction: column;
-align-items: right;
+align-items: center;
 transition: transform 0.3s;
 }
 .card2:hover {
 transform: rotateY(-10deg);
 }
 .Opic {
-width: 250px;
+width: 300px;
 height: 400px;
 border: 5px blue; /* Creates a nice border effect */
 }
